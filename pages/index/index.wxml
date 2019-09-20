@@ -1,0 +1,85 @@
+<view class="root">
+<!-- 标签栏的页签 高度固定 -->
+  <view class="tabs">
+    <view class="item active">
+      <text>个性推荐</text>
+    </view>
+    <view class="item">
+      <text>歌单</text>
+    </view>
+    <view class="item">
+      <text>主播电台</text>
+    </view>
+    <view class="item">
+      <text>排行榜</text>
+    </view>
+  </view>
+  <!-- 内容区域 自适应高度-->
+  <scroll-view class="content" scroll-y>
+    <view class="slide">
+      <image src="../../images/timg10.jpg"></image>
+    </view>
+    <view class="partals">
+      <view class="item">
+       <image src="../../images/CN_douban FM.png"></image>
+        <text>私人FM</text>
+      </view>
+       <view class="item">
+       <image src="../../images/tuijian.png"></image>
+        <text>每日歌曲推荐</text>
+      </view>
+       <view class="item">
+       <image src="../../images/paihangbang.png"></image>
+        <text>排行榜</text>
+      </view>
+    </view>
+    <view class="list">
+      <view class="title">
+        <text>推荐歌单</text>
+      </view>
+      <view class="inner">
+        <view class="item">
+          <image src="../../images/timg 11.jpg"></image>
+          <text>一生中最爱的是谁？</text>
+        </view>
+         <view class="item">
+          <image src="../../images/timg.jpg"></image>
+          <text>一生中最爱的是谁？</text>
+        </view>
+        <view class="item">
+          <image src="../../images/timg (2).jpg"></image>
+          <text>一生中最爱的是谁？</text>
+        </view>
+          <view class="item">
+            <image src="../../images/timg7.jpg"></image>
+            <text>一生中最爱的是谁？</text>
+          </view>
+         <view class="item">
+          <image src="../../images/timg (1).jpg"></image>
+          <text>一生中最爱的是谁？</text>
+        </view>
+         <view class="item">
+          <image src="../../images/timg8.jpg"></image>
+          <text>一生中最爱的是谁？</text>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+  <!-- 播放控条，固定高度 -->
+  <view class="player">
+    <view class="poster">
+      <image src="../../images/timg (4).jpg"></image>
+    </view>
+    <view class="info">
+      <text class="title">满足</text>
+      <text class="artist">肖战</text>
+      
+    </view>
+    <view class="controls">
+      <image src='../../images/more.png'></image>
+      <image src="../../images/pause.png"></image>
+      <image src='../../images/xiayishou.png'></image>
+     
+    </view>
+  </view>
+</view>
